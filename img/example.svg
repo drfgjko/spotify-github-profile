@@ -88,7 +88,7 @@
 
                 Now playing on
                 <img class="logo"
-                    src="data:image/png;base64," />
+                    src="" />
             </div>
             <div class="artist">Killswitch Engage</div>
             <div class="song">Rose of Sharyn</div>
@@ -97,7 +97,7 @@
             </div>
             <a href="{}" target="_BLANK">
                 <center>
-                        <img src="data:image/png;base64," width="300" height="300" class="cover" />
+                        <img src="" width="300" height="300" class="cover" />
                 </center>
             </a>
 
