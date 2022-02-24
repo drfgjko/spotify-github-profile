@@ -49,10 +49,6 @@
         margin-bottom: 22px;
       }
 
-      .logo {
-        margin-left: 5px;
-      }
-
       .cover {
         border-radius: 5px;
       }
