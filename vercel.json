@@ -3,7 +3,26 @@
   "builds": [
     {
       "src": "api/*.py",
-      "use": "@vercel/python@3.9", 
+      "use": "@vercel/pyth{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python",  
+      "config": {
+        "runtime": "python3.9", 
+        "suppressWarnings": true
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1",
+      "methods": ["GET", "POST"]
+    }
+  ]
+}on@3.9", 
       "config": {
         "maxLambdaSize": "15mb",
         "suppressWarnings": true
