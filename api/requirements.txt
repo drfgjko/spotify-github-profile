@@ -1,8 +1,8 @@
-Flask==1.1.4
-Werkzeug==0.16.1  # 关键修改：降级到兼容 Python 3.9 的版本
-requests==2.24.0
-python-dotenv==0.14.0
-firebase-admin==4.3.0
-Pillow==8.3.2
-colorgram.py==1.2.0
-markupsafe==2.0.1  # 新增：防止自动升级到不兼容版本
+Flask==2.3.2          # 原1.1.4 → 新版兼容3.12
+Werkzeug==2.3.7       # 原1.0.1 → 必须升级
+requests==2.31.0      # 原2.24.0 → 解决urllib3兼容问题
+python-dotenv==1.0.0  # 原0.14.0
+firebase-admin==6.2.0 # 原4.3.0 → 新版SDK
+Pillow==10.0.0        # 原8.3.2 → 支持3.12
+colorgram.py==1.2.0   # 无需修改
+markupsafe==2.0.1  # 防止自动升级到不兼容版本
