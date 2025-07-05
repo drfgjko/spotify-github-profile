@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9",
+        "installCommand": "pip install -r requirements.txt --ignore-installed"
+      }
+    }
+  ]
+}
